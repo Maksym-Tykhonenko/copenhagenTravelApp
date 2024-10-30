@@ -6,21 +6,7 @@ import {Dimensions} from 'react-native';
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 import Layaut from '../components/Layaut';
-
-const HomeScreen = () => {
-  return (
-    <Layaut>
-      <View
-        style={{
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-        <Text>Home Screen</Text>
-      </View>
-    </Layaut>
-  );
-};
+import HomeScreen from '../screens/Home/HomeScreen';
 
 const HomeRoute = () => {
   return (

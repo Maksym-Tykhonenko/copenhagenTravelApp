@@ -6,21 +6,7 @@ import {Dimensions} from 'react-native';
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 import Layaut from '../components/Layaut';
-
-const FichScreen = () => {
-  return (
-    <Layaut>
-      <View
-        style={{
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-        <Text>Fich Screen</Text>
-      </View>
-    </Layaut>
-  );
-};
+import FichScreen from '../screens/Fich/FichScreen';
 
 const FichRoute = () => {
   return (
